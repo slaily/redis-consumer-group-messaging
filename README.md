@@ -36,8 +36,8 @@ This screenshot displays the command-line interface of our application, showcasi
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/redis-consumer-group.git
-   cd redis-consumer-group
+   git clone https://github.com/slaily/redis-consumer-group-messaging.git
+   cd redis-consumer-group-messaging
    ```
 
 2. Create and activate a virtual environment:
