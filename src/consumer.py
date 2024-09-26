@@ -100,6 +100,7 @@ class Consumer(Thread):
                             # Store processed message data in Redis Stream
                             stream_entry = {
                                 "message_id": message_id,
+                                "consumer_id": str(self.id),
                                 "data": dumps(processed_message),
                             }
                             self._redis_client.xadd("messages:processed", stream_entry)
